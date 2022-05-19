@@ -1,0 +1,37 @@
+/* Variables */
+:root {
+    --text-color-1: #333333;
+    --text-color-2: #FFFFFF;
+    --green: #6ABB62;
+    --red: #FF4141;
+    --gray: #888888;
+}
+
+/* Universal */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+/* Text Styles */
+p,
+h1 {
+    color: var(--text-color-1);
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Page Styles */
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
