@@ -21,6 +21,19 @@
     <title>Vanilla JavaScript Stopwatch</title>
 </head>
 <body>
-    
+    <div class="stopwatch">
+        <h1 class="stopwatch__time">
+            <span class="stopwatch__time-minutes" id="minutesIndex">00</span>
+            :
+            <span class="stopwatch__time-seconds" id="secondsIndex">00</span>
+            ,
+            <span class="stopwatch__time-milliseconds" id="millisecondsIndex">00</span>
+        </h1>
+        <div>
+            <button class="button button__start" id="startButton">Start</button>
+            <button class="button button__stop" id="stopButton">Stop</button>
+            <button class="button button__reset" id="resetButton">Reset</button>
+        </div>
+    </div>
 </body>
 </html>
